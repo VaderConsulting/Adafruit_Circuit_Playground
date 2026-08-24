@@ -1,54 +1,38 @@
 # Adafruit_Circuit_Playground
 
-Arduino sketch or library from the Arduino archive.
+All in one library to control Adafruit's Circuit Playground board. Original author: Adafruit. This is Dave Robinson's working copy from the Arduino `libraries` tree. Version recorded in `library.properties`: 1.11.4. Upstream: <https://github.com/adafruit/Adafruit_CircuitPlayground>.
 
-## Contents
+**Language:** C++ / Arduino  
+**Target:** Arduino (*)  
+**Output:** Arduino library
 
-- `examples/CircuitPlaygroundFirmata_Express_CodeOrg/CircuitPlaygroundFirmata_Express_CodeOrg.ino`
-- `examples/analog_sensors/analog_sensors.ino`
-- `examples/comm_badge/comm_badge.ino`
-- `examples/Hello_CircuitPlayground/Hello_Accelerometer/Hello_Accelerometer.ino`
-- `examples/Hello_CircuitPlayground/Hello_Speaker/Hello_Speaker.ino`
-- `examples/Hello_CircuitPlayground/Hello_LightSensor/Hello_LightSensor.ino`
-- `examples/Hello_CircuitPlayground/Hello_SlideSwitch/Hello_SlideSwitch.ino`
-- `examples/Hello_CircuitPlayground/Hello_Buttons/Hello_Buttons.ino`
-- `examples/Hello_CircuitPlayground/Hello_NeoPixels/Hello_NeoPixels.ino`
-- `examples/Hello_CircuitPlayground/Hello_Blink/Hello_Blink.ino`
-- `examples/Hello_CircuitPlayground/Hello_SoundSensor/Hello_SoundSensor.ino`
-- `examples/Hello_CircuitPlayground/Hello_Temperature/Hello_Temperature.ino`
-- `examples/tachometer_led_display/tachometer_led_display.ino`
-- `examples/accelTap/accelTap.ino`
-- `examples/accel_mouse/accel_mouse.ino`
-- `examples/ScratchSensorBoard/ScratchSensorBoard.ino`
-- `examples/Microphone_Demos/Birthday_Candles/Birthday_Candles.ino`
-- `examples/Microphone_Demos/vu_meter/vu_meter.ino`
-- `examples/Microphone_Demos/soundPressureLevel/soundPressureLevel.ino`
-- `examples/Microphone_Demos/pretty_meter/pretty_meter.ino`
-- `examples/Microphone_Demos/mic_FFT_classic/mic_FFT_classic.ino`
-- `examples/Microphone_Demos/mic_FFT_express/mic_FFT_express.ino`
-- `examples/external_neopixels/external_neopixels.ino`
-- `examples/Infrared_Demos/Infrared_Testpattern/Infrared_Testpattern.ino`
-- `examples/Infrared_Demos/Infrared_NeoPixel/Infrared_NeoPixel.ino`
-- `examples/Infrared_Demos/Infrared_Record/Infrared_Record.ino`
-- `examples/Infrared_Demos/Infrared_Send/Infrared_Send.ino`
-- `examples/Infrared_Demos/Infrared_Read/Infrared_Read.ino`
-- `examples/CircuitPlaygroundFirmata/CircuitPlaygroundFirmata.ino`
-- `examples/Speech_Demos/Talk_US_Male/Talk_US_Male.ino`
-- `examples/Speech_Demos/Talk_US_Large/Talk_US_Large.ino`
-- `examples/Speech_Demos/Talk_US_TI99/Talk_US_TI99.ino`
-- `examples/Speech_Demos/Talk_UK_Acorn/Talk_UK_Acorn.ino`
-- `examples/Speech_Demos/Talk_US_Clock/Talk_US_Clock.ino`
-- `examples/mega_demo/mega_demo.ino`
-- `examples/color_sense/color_sense.ino`
-- `examples/FidgetSpinner/FidgetSpinner.ino`
-- `examples/demo/demo.ino`
-- `examples/tachometer/tachometer.ino`
-- `library.properties`
+## Solution structure
+
+| Project | Language | Type | Purpose |
+|---------|----------|------|---------|
+| `Adafruit Circuit Playground` | C++ / Arduino | library | All in one library to control Adafruit's Circuit Playground board |
+| `CircuitPlaygroundFirmata` | C++ / Arduino | example sketch | `examples/CircuitPlaygroundFirmata/CircuitPlaygroundFirmata.ino` |
+| `CircuitPlaygroundFirmata_Express_CodeOrg` | C++ / Arduino | example sketch | `examples/CircuitPlaygroundFirmata_Express_CodeOrg/CircuitPlaygroundFirmata_Express_CodeOrg.ino` |
+| `FidgetSpinner` | C++ / Arduino | example sketch | `examples/FidgetSpinner/FidgetSpinner.ino` |
+| `Hello_Accelerometer` | C++ / Arduino | example sketch | `examples/Hello_CircuitPlayground/Hello_Accelerometer/Hello_Accelerometer.ino` |
+| `Hello_Blink` | C++ / Arduino | example sketch | `examples/Hello_CircuitPlayground/Hello_Blink/Hello_Blink.ino` |
+| `Hello_Buttons` | C++ / Arduino | example sketch | `examples/Hello_CircuitPlayground/Hello_Buttons/Hello_Buttons.ino` |
+| `Hello_LightSensor` | C++ / Arduino | example sketch | `examples/Hello_CircuitPlayground/Hello_LightSensor/Hello_LightSensor.ino` |
+| `Hello_NeoPixels` | C++ / Arduino | example sketch | `examples/Hello_CircuitPlayground/Hello_NeoPixels/Hello_NeoPixels.ino` |
+
+## How to open
+
+Install this folder as an Arduino library (Sketch → Include Library → Add .ZIP Library, or copy into `libraries/Adafruit_Circuit_Playground`). Open any `examples/*.ino` from the Arduino IDE.
 
 ## Attribution and provenance
 
-- No third-party source-code attribution markers were identified in assembly/package metadata.
+- **Original author / maintainer:** Adafruit
+- **library.properties name:** Adafruit Circuit Playground
+- **Version:** 1.11.4
+- **Upstream URL:** <https://github.com/adafruit/Adafruit_CircuitPlayground>
+- **Category:** Other
+- This repository is Dave Robinson's working copy for catalogue/reference; authorship stays with the original authors.
 
 ## License
 
-MIT. See `LICENSE`.
+Original upstream license terms in this tree (where recorded). This repository does not claim authorship of the upstream library. See `THIRD_PARTY_NOTICES.md`. The `LICENSE` file added at import is a VaderConsulting MIT wrapper and does not replace upstream terms.
