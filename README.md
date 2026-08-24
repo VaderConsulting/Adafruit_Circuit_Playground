@@ -2,6 +2,7 @@
 
 All in one library to control Adafruit's Circuit Playground board. Original author: Adafruit. This is Dave Robinson's working copy from the Arduino `libraries` tree. Version recorded in `library.properties`: 1.11.4. Upstream: <https://github.com/adafruit/Adafruit_CircuitPlayground>.
 
+**Source last updated:** 2021-12-10  
 **Language:** C++ / Arduino  
 **Target:** Arduino (*)  
 **Output:** Arduino library
