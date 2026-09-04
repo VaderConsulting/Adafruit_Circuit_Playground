@@ -25,6 +25,10 @@ All in one library to control Adafruit's Circuit Playground board. Original auth
 
 Install this folder as an Arduino library (Sketch → Include Library → Add .ZIP Library, or copy into `libraries/Adafruit_Circuit_Playground`). Open any `examples/*.ino` from the Arduino IDE.
 
+## Requirements
+
+- Arduino IDE
+
 ## Attribution and provenance
 
 - **Original author / maintainer:** Adafruit
