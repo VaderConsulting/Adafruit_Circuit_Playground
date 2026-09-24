@@ -1,6 +1,6 @@
 # Adafruit_Circuit_Playground
 
-All in one library to control Adafruit's Circuit Playground board. Original author: Adafruit. This is Dave Robinson's working copy from the Arduino `libraries` tree. Version recorded in `library.properties`: 1.11.4. Upstream: <https://github.com/adafruit/Adafruit_CircuitPlayground>.
+All in one library to control Adafruit's Circuit Playground board. Original author: Adafruit. This is my working copy from the Arduino `libraries` tree. Version recorded in `library.properties`: 1.11.4. Upstream: <https://github.com/adafruit/Adafruit_CircuitPlayground>.
 
 **Source last updated:** 2021-12-10  
 **Language:** C++ / Arduino  
@@ -36,7 +36,7 @@ Install this folder as an Arduino library (Sketch → Include Library → Add .Z
 - **Version:** 1.11.4
 - **Upstream URL:** <https://github.com/adafruit/Adafruit_CircuitPlayground>
 - **Category:** Other
-- This repository is Dave Robinson's working copy for catalogue/reference; authorship stays with the original authors.
+- This repository is my working copy for catalogue/reference; authorship stays with the original authors.
 
 ## License
 
